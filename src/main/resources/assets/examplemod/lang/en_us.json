@@ -1,0 +1,25 @@
+{
+  "item.examplemod.structuregel": "Structure Gel",
+  "block.examplemod.castlewall": "Castle Wall",
+  "item.examplemod.gelore": "Gel Ore",
+  "item.examplemod.amethyst": "Amethyst",
+  "item.examplemod.steroid": "Steroids",
+  "item.examplemod.teleportrod": "Teleport Rod",
+  "item.examplemod.lightninghammer": "Lightning Hammer",
+  "item.examplemod.gelpickaxe": "Gel Pickaxe",
+  "item.examplemod.gelsword": "Gel Sword",
+  "item.examplemod.gelshovel": "Gel Shovel",
+  "item.examplemod.gelaxe": "Gel Axe",
+  "item.examplemod.gelhoe": "Gel Hoe",
+  "block.examplemod.geloreblock": "Gel Ore Block",
+  "block.examplemod.rubber": "Rubber Block",
+  "block.examplemod.creepingmold": "Creeping Mold Block",
+  "block.examplemod.creepersurprise": "Creeper Surprise Block",
+  "item.examplemod.customhelm": "Cool Helmet",
+  "item.examplemod.customchest": "Cool Chestplate",
+  "item.examplemod.customlegs": "Cool Leggings",
+  "item.examplemod.customboots": "Cool Boots",
+  "entity.examplemod.zombo": "Bozo",
+  "item.examplemod.zombo_egg": "Bozo Spawn Egg"
+
+}
