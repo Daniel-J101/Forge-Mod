@@ -1,7 +1,7 @@
 {
 	"variants": {
 		"": {
-			"model": "examplemod:block/castlewall"
+			"model": "nandji:block/castlewall"
 		}
 	}
 }

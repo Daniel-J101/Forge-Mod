@@ -7,6 +7,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 
@@ -30,7 +31,7 @@ public class CreepingMoldBlock extends Block {
         super.randomTick(blockState, serverLevel, pos, random);
         BlockPos blockPos = Utils.findNeightborBlock(pos);
 
-        if(blockPos != null) {
+        if(serverLevel.getBlockState(blockPos) == Blocks.AIR.defaultBlockState()) {
             serverLevel.setBlockAndUpdate(blockPos, this.defaultBlockState());
         }
 

@@ -45,7 +45,7 @@ import java.util.stream.Collectors;
 public class BaseMod {
 
     // Change your modid here. Whenever modid is needed, use BaseMod.MODID
-    public static final String MODID = "examplemod";
+    public static final String MODID = "nandji";
     private static final Logger LOGGER = LogManager.getLogger(BaseMod.MODID);
 
     public BaseMod() {

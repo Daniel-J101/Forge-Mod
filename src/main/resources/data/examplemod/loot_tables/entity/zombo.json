@@ -13,7 +13,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "examplemod:steroid"
+          "name": "nandji:steroid"
         }
       ]
     }
