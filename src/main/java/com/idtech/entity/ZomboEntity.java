@@ -1,6 +1,7 @@
 package com.idtech.entity;
 
 import com.idtech.BaseMod;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -20,6 +21,8 @@ import net.minecraft.world.level.Level;
 
 public class ZomboEntity extends Zombie {
 
+    public static final ResourceLocation LOOT_TABLE = new ResourceLocation("examplemod", "entities/zombo");
+
     public static EntityType<ZomboEntity> TYPE = (EntityType<ZomboEntity>)
             EntityType.Builder.of(ZomboEntity::new, MobCategory.MONSTER)
                     .build("zombo")
@@ -35,10 +38,15 @@ public class ZomboEntity extends Zombie {
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
                 .add(Attributes.MOVEMENT_SPEED, (double)0.23f)
-                .add(Attributes.MAX_HEALTH, (double)100f)
+                .add(Attributes.MAX_HEALTH, (double)1f)
                 .add(Attributes.FOLLOW_RANGE, (double) 1000f)
                 .add(Attributes.ATTACK_DAMAGE, (double) 1f)
                 .add(Attributes.SPAWN_REINFORCEMENTS_CHANCE, (double)0.5f);
+    }
+
+    @Override
+    protected ResourceLocation getDefaultLootTable() {
+        return LOOT_TABLE;
     }
 
     @Override
